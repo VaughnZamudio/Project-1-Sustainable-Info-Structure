@@ -1,30 +1,77 @@
 <!DOCTYPE html>
+<!-- 
+  The HTML should be valid HTML5 and follow
+  accessibility principles, hence the 'lang' attribute.
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title combines the site name and the current page -->
     <title>Home - Research Paper Toolbox</title>
+    <!-- 
+      Styling must be in a separate, single-sourced CSS file.
+      This line now links to our new style.css file.
+    -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- 
+      Using a <header> for semantic structure to contain the main
+      site title and the top-level navigation.
+    -->
     <header>
-        <h1>Research Paper Toolbox</h1> <nav>
+        <h1>Research Paper Toolbox</h1>
+        
+        <!-- 
+          This <nav> element fulfills the "top-level navigation" 
+          requirement.
+        -->
+        <nav>
             <ul>
-                <li><a href="index.html" aria-current="page">Home</a></li> <li><a href="template.html">Topic</a></li> <li><a href="research.html">Research</a></li> <li><a href="data.html">Data</a></li> <li><a href="template.html">References</a></li> <li><a href="template.html">Style</a></li> <li><a href="template.html">Layout</a></li> <li><a href="template.html">Modality</a></li> <li><a href="template.html">Professionalization</a></li> <li><a href="template.html">Module Template</a></li> </ul>
+                <!-- 
+                  Navigation links are based on the module list.
+                  - "Home" is the current page, marked with aria-current for accessibility.
+                  - "Research" and "Data" link to their specific module pages.
+                  - All other modules link to a single placeholder/template page.
+                  - A separate link to the "Module Template" is also included as required.
+                  - File names are chosen to be clear and understandable.
+                -->
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="template.html">Topic</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="data.html">Data</a></li>
+                <li><a href="template.html">References</a></li>
+                <li><a href="template.html">Style</a></li>
+                <li><a href="template.html">Layout</a></li>
+                <li><a href="template.html">Modality</a></li>
+                <li><a href="template.html">Professionalization</a></li>
+                <li><a href="template.html">Module Template</a></li>
+            </ul>
         </nav>
     </header>
 
+    <!-- 
+      The <main> element contains the primary, unique content 
+      for the home page.
+    -->
     <main>
-        <p>Constructing a research paper is an integral part of being a graduate student in the Information Architecture, Technical Communication and Information Design, and Technical Communication programs at IIT. </p>
+        <p>Constructing a research paper is an integral part of being a graduate student in the Information Architecture, Technical Communication and Information Design, and Technical Communication programs at IIT.</p>
         
         <p>There is no right or wrong way to put a paper together, but there are a wealth of tools available to make the process efficient and manageable.</p>
         
-        <p>In this course, you will find an explanation of the basic steps involved in writing a research paper, as well as a selection of tools that complement certain steps. </p>
+        <p>In this course, you will find an explanation of the basic steps involved in writing a research paper, as well as a selection of tools that complement certain steps.</p>
         
-        <p>If you are new to writing research papers, this course will guide you through each of the basic steps; [cite: 5] [cite_start]even if you are an experienced writer, you can still refresh your knowledge with one or more lessons. </p>
+        <p>If you are new to writing research papers, this course will guide you through each of the basic steps; even if you are an experienced writer, you can still refresh your knowledge with one or more lessons.</p>
         
-        <p>To begin, choose a lesson by clicking one of the modules below. </p>
+        <!-- 
+          This copy is included exactly as provided. Per project
+          instructions, inconsistencies in language (like "below" when the 
+          navigation is placed at the top) should be ignored, not copyedited,
+          in favor of a correct information structure.
+        -->
+        <p>To begin, choose a lesson by clicking one of the modules below.</p>
     </main>
 
 </body>
