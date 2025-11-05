@@ -19,7 +19,7 @@ h1 {
 }
 
 nav {
-    background-color: #e9e9e9;
+    background-color: #76777B;
     border: 1px solid #ccc;
     border-radius: 8px; 
     padding: 10px;
@@ -40,7 +40,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #333;
+    color: #ffffff;
     text-align: center;
     padding: 10px 15px;
     text-decoration: none;
@@ -50,12 +50,12 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: #ddd;
+    background-color: #999999;
 }
 
 
 nav ul li a[aria-current="page"] {
-    background-color: #007BFF;
+    background-color: #CC0000;
     color: white;
     font-weight: bold;
 }
