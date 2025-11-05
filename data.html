@@ -63,7 +63,7 @@
         <p>Variable names must start with a letter (not numbers or special characters), so change <code>4tutorial_types</code> to <code>tutorial_types</code>. Name variables so that they are intuitive to you. Therefore, change <code>use</code> and <code>useful</code> to <code>perc_ease_of_use</code> and <code>perc_usefulness</code>, respectively. Your spreadsheet should look like Figure 1, and it should now be readily apparent that Column F refers to <code>Perceived Usefulness</code> and Column G refers to <code>Perceived Ease of Use</code>.</p>
         
         <figure>
-            <img src="images/datalesson_fig3.jpg" alt="Data spreadsheet formatting for dichotomous variables">
+            <img src="images/datalesson_fig3.png" alt="Data spreadsheet formatting for dichotomous variables">
             <figcaption>Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</figcaption>
         </figure>
         
@@ -72,7 +72,7 @@
         <p>Separate data into component values whenever possible by adding new columns. For example, <code>tasks_completed</code> values (Y/Y/N) can be broken up into three components. So, add columns <code>task1</code>, <code>task2</code>, and <code>task3</code>, and reformat values appropriately. Double-check to ensure no data entry errors have been made, then delete the old <code>tasks_completed</code> column. Your <code>Raw_Dataset</code> spreadsheet should now look like Figure 2.</p>
         
         <figure>
-            <img src="images/datalesson_fig2.jpg" alt="Consistently formatted variable values in spreadsheet">
+            <img src="images/datalesson_fig2.png" alt="Consistently formatted variable values in spreadsheet">
             <figcaption>Values for each variable are entered in a consistent format.</figcaption>
         </figure>
         
@@ -82,10 +82,10 @@
             <p>Dichotomous variables allow for the easy isolation of characteristics for analysis. For example, separating <code>experience</code> levels allows the researcher to test in PASW whether subjects with low experience have <code>perceived ease of use</code> scores significantly different from those with medium and high experience levels.</p>
         </aside>
         
-        <p>Copy the <code>Raw_Dataset</code> values into the Sheet2 tab. Rename this sheet <code>Formatted_Data</code>. In the <code>Formatted_Data</code> sheet, add new columns with <code>Insert > Columns</code> for each distinct value in categorical data columns (<code>tutorial_types</code>, <code>gender</code>, <code>exp_level</code>, <code>task1</code>, <code>task2</code>, and <code>task3</code>). You do not have to add a new column for <code>task1</code>, <code>task2</code>, and <code>task3</code> because their values are already dichotomous. Rename columns according to each possible categorical value. Copy and paste the values from the original column. Replace dichotomous data values with "0" or "1" (0=no, 1=yes) using the replace function: <code>Edit > Replace</code>. Your <code>Formatted_Data</code> spreadsheet should now look like Figure 3.</p>
+        <p>Copy the <code>Raw_Dataset</code> values into the Sheet2 tab. Rename this sheet <code>Formatted_Data</code>. In the <code>Formatted_Data</code> sheet, add new columns with <code>Insert > Columns</code> for each distinct value in categorical data columns (<code>tutorial_types</code>, q<code>gender</code>, <code>exp_level</code>, <code>task1</code>, <code>task2</code>, and <code>task3</code>). You do not have to add a new column for <code>task1</code>, <code>task2</code>, and <code>task3</code> because their values are already dichotomous. Rename columns according to each possible categorical value. Copy and paste the values from the original column. Replace dichotomous data values with "0" or "1" (0=no, 1=yes) using the replace function: <code>Edit > Replace</code>. Your <code>Formatted_Data</code> spreadsheet should now look like Figure 3.</p>
         
         <figure>
-            <img src="images/datalesson_fig3 (1).jpg" alt="Dichotomous variable formatting">
+            <img src="images/datalesson_fig3 (1).png" alt="Dichotomous variable formatting">
             <figcaption>Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</figcaption>
         </figure>
         
@@ -111,7 +111,7 @@
         <p>Analyzing descriptive statistics is a great way to start appraising a dataset before running inferential statistics. What insights about the dataset can you glean from the summary statistics for <code>perc_usefulness</code> and <code>perc_ease_of_use</code>?</p>
         
         <figure>
-            <img src="images/datalesson_fig4.jpg" alt="Descriptive Statistics output in Excel">
+            <img src="images/datalesson_fig4.png" alt="Descriptive Statistics output in Excel">
             <figcaption>Excel will not run descriptive statistics with non-numeric characters, so the variable labels must be re-entered.</figcaption>
         </figure>
         
@@ -144,6 +144,7 @@
         
         <aside>
             <p>Consult UCLA's <code>Choosing the Correct Statistic</code> to ensure the statistical anlaysis is appropriate for your research question(s), variables of interest, and associated data types.</p>
+Also, in the data file, the text " `perc_usefulness` and `perc_ease_of_use`?" should be on the same line. please fix this.
         </aside>
         
         <p>You should have determined that the Kruskal-Wallis one-way analysis of variance is the appropriate test.</p>
@@ -155,7 +156,7 @@
         </ol>
         
         <figure>
-            <img src="images/datalesson_fig6.jpg" alt="PASW K Independent Samples dialog box setup">
+            <img src="images/datalesson_fig6.png" alt="PASW K Independent Samples dialog box setup">
             <figcaption>For Kruskal-Wallis, an independent (free_play) and a dependent variable (perc_usefulness) are selected.</figcaption>
         </figure>
         
@@ -168,7 +169,7 @@
         <p>To save the results, go to <code>File > Export</code>. Change Document Type to the desired output format (Word, Excel, PDF, etc.), then click OK.</p>
         
         <figure>
-            <img src="images/datalesson_fig7.jpg" alt="PASW statistics export options window">
+            <img src="images/datalesson_fig7.png" alt="PASW statistics export options window">
             <figcaption>PASW allows users to export statistics to common document types.</figcaption>
         </figure>
         
