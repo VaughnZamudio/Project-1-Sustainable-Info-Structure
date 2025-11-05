@@ -23,7 +23,8 @@ nav {
     border: 1px solid #ccc;
     border-radius: 8px; 
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
+    max-width: 800px;
 }
 
 
